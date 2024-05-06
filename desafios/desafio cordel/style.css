@@ -1,0 +1,49 @@
+@charset "UTF-8";
+ 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+#cabeca {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+#title {
+    font-size: 60px;
+}
+#cabra {
+    font-size: 20px;
+    font-weight: 500;
+}
+#cabra > a:hover {
+    text-decoration: underline;
+}
+a {
+    
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+section {
+    font-size: 35px;
+    margin: 70px 25px ;
+
+}
+.imagem {
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+}
+#rodape {
+    color: black;
+    font-weight: lighter;
+    text-decoration: none;
+}
+#rodape:hover {
+    text-decoration: underline;
+}
