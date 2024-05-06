@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(73, 40, 73);
+}
+a {
+    color: rgb(167, 197, 252);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+}
+a:hover {
+    text-decoration: underline;
+    color: black;
+    border-radius: 8px;
+}
+
+.especial {
+    background-color: rgb(105, 56, 56);
+}
+
+.especial::after {
+    content: ' ✷';
+}
+.especial::before {
+    content: '✷ ';
+}
+
+

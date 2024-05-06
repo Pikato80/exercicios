@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*
+HTML = id
+CSS = #
+
+HTML = class
+CSS = .
+*/
+
+body {
+    
+   background-image: linear-gradient(to right, #7cbba6, #70a5f5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    background-color: white;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px #2e05274d;
+}
+ h1 {
+    color: #2e0527 ;
+    text-align: center;
+ }
+p{
+    font-weight: normal;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ #principal {
+    text-align: center;
+    color: #2e0527 ;
+    background-color: #6e837c
+ }                                                                         
+ h2 {
+    color: #6e837c;
+ }
+ .basico {
+    color: #29d454;
+ }
+ .intermediario {
+    color: #999731;
+ }
+ .avancado {
+    color: #d30707;
+ }
