@@ -6,22 +6,25 @@
     padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
-#cabeca {
+#cabeca  {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 60px;
+    padding: 50px;
+}
+#cabeca >h1 {
+    font-variant: small-caps;
+    
 }
 #title {
     font-size: 60px;
 }
-#cabra {
+.cabra {
     font-size: 20px;
     font-weight: 500;
 }
-#cabra > a:hover {
+.cabra > a:hover {
     text-decoration: underline;
 }
 a {
@@ -31,13 +34,11 @@ a {
     text-decoration: none;
 }
 section {
-    font-size: 35px;
-    margin: 70px 25px ;
-
-}
-.imagem {
-    background-image: url(imagens/background001.jpg);
-    background-position: center center;
+    font-size: 30px;
+    padding-top:10vh;
+    padding-bottom:10vh;
+    line-height: 2em;
+    padding-left: 30px;
 }
 #rodape {
     color: black;
@@ -46,4 +47,27 @@ section {
 }
 #rodape:hover {
     text-decoration: underline;
+}
+.normal {
+    background-color: white;
+    color: black;
+}
+.imagem {
+    background-color: lightgray;
+    color: white;
+
+}
+.imagem > p {
+ background-color:rgba(0, 0, 0, 0.267) ;
+ width:400px ;
+}
+#janinha {
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+}
+#pepo{
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    background-attachment: fixed;
 }
