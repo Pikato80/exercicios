@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        tr.title {
+            background-color: gray;            
+        }
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        td.num {
+            width:30px ;
+            background-color: gray;
+        }
+        td.normal {
+            width: 200px;
+        }
+        td.normal:hover {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <!-- hierarquia de tabelas (simples)
+    TABLE = tabela
+        TABLE ROW = linha de tabela
+            TABLE HEADER = cabeçalho da tabela
+            TABLE DATA = dados de tabela-->
+    <table>
+        <tr class="title">
+            <td></td>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+        </tr>
+        <tr>   <!-- primeira linha -->
+            <td class="num">1</td>
+            <td class="normal">A1</td>
+            <td class="normal">B1</td>
+            <td class="normal">C1</td>
+        </tr>
+        <tr>
+            <td class="num">2</td>
+            <td class="normal">A2</td>
+            <td class="normal">B2</td>
+            <td class="normal">C2</td>
+        </tr>
+        <tr>
+            <td class="num">3</td>
+            <td class="normal">A3</td>
+            <td class="normal"B3>B3</td>
+            <td class="normal">C3</td>
+        </tr>
+        <tr>
+            <td class="num">4</td>
+            <td class="normal">A4</td>
+            <td class="normal">B4</td>
+            <td class="normal">C4</td>
+        </tr>
+    </table>
+</body>
+</html>
